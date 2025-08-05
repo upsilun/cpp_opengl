@@ -1,0 +1,1 @@
+g++ main.cpp -o MovingText.exe -I. -L. -lglfw3 -lglew32 -lopengl32 -lgdi32 -static-libgcc -static-libstdc++
