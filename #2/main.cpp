@@ -6,6 +6,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
+//
 // Vertex Shader source code
 const char* vertexShaderSource = R"(
 #version 330 core
