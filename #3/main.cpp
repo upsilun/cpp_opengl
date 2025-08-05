@@ -206,7 +206,7 @@ int main() {
         // Object color
         glUniform3f(glGetUniformLocation(shaderProgram, "objectColor"), 1.0f, 0.5f, 0.31f); // Orange
 
-        // Light properties
+        // Light properties //
         glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
         glm::vec3 lightColor(1.0f, 1.0f, 1.0f); // White light
         glUniform3fv(glGetUniformLocation(shaderProgram, "lightPos"), 1, &lightPos[0]);
